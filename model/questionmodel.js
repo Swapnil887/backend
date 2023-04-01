@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const connection = mongoose.connect("mongodb+srv://swapnil:swapnil@cluster0.tush2vw.mongodb.net/questions?retryWrites=true&w=majority");
+const connection = mongoose.connect("mongodb+srv://priti:priti@cluster0.ix0jp.mongodb.net/Easy_Poling?retryWrites=true&w=majority");
 
 const questionModel = mongoose.model("question",{
     room:String,
